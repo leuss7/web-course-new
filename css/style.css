@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #2f3437;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    background-color: #4a5054;
+    padding: 8px 8px;
+    border-radius: 8px;
+    margin-left: 10px;
+    transition: background-color 0.2s;
+}
+
+header a:hover {
+    background-color: #202427;
+}
+h1, h2{
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    margin-left: 8px;
+    padding: 6px 6px;
+    width: fit-content;
+}
+
+.first, .info{
+    max-width: 35%;
+    padding: 0 14px;
+}
+
+.author{
+    max-width: 45%;
+    padding: 0 14px;
+}
